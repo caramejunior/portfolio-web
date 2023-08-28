@@ -1,82 +1,113 @@
-body, html {
-    margin: 0;
-    padding: 0;
+/* Adicione este código no seu arquivo styles.css */
+
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 .header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+  background-color:  #000;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #444444;
 }
 
 .nav {
-    text-align: center;
-    padding: 1rem 0;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 .ul-nav {
-    list-style-type: none;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
+  display: flex; /* Alterando para flex para usar justify-content */
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  margin-right: 70px;
 }
 
 .ul-nav li {
-    display: inline;
-    margin-right: 20px;
+  display: flex;
+  margin-left: 70px;
 }
 
 .ul-nav li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.5s; /* Transição suave da cor ao passar o mouse */
+  border-bottom: 1px solid yellow;
+}
+
+.ul-nav li a:hover {
+  color: yellow; /* Cor do texto ao passar o mouse */
 }
 
 section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2rem;
-    color: #333;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: #333;
 }
 
 .footer-page {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
 
 @media (max-width: 768px) {
-    .ul-nav {
-        display: block;
-        text-align: center;
-    }
+  .ul-nav {
+    display: block;
+    text-align: center;
+  }
 
-    .ul-nav li {
-        margin: 10px 0;
-    }
+  .ul-nav li {
+    margin: 10px 0;
+  }
 }
 
 #home {
-    background-color: #000 ;
+  background-color: black;
 }
 
 .home-page span {
-    font-size: 2.0em;
-    color: yellow;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    font-weight: bold;
-    font-style: italic
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.home-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.text {
+  text-align: left;
+  margin: 30% 20px 0 20px;
+}
+
+.home-section .img-home {
+    position: absolute;
+    top: 30%;
+    right: -20%;
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
 }

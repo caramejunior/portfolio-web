@@ -25,4 +25,15 @@ const line1Element = document.getElementById('typing-text-line1');
         }
     }
 
+    document.addEventListener("DOMContentLoaded", function () {
+        const backToTopButton = document.getElementById("backToTopBtn");
+      
+        backToTopButton.addEventListener("click", function () {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        });
+      });
+
     typeTextLine1();
