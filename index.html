@@ -1,56 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Carame Júnior">
-    <meta name="description" content="Portfólio do Desenvolvedor front-end Carame Júnior">
-    <meta name="keywords" content="portfolio, html, css, javascript, front-end, desenvovimento web">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carame Júnior" />
+    <meta
+      name="description"
+      content="Portfólio do Desenvolvedor front-end Carame Júnior"
+    />
+    <meta
+      name="keywords"
+      content="portfolio, html, css, javascript, front-end, desenvovimento web"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Carame Júnior</title>
-</head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <ul class="ul-nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#projects">Projetos</a></li>
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home" class="home-section">
-        <div class="text">
-            <h1 class="home-page">
-                <span id="typing-text-line1"></span><br><br>
-                <span id="typing-text-line2"></span>
-            </h1>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo" href="/">CarameJr</a>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
         </div>
-    </section>
-    <section id="about">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home-section">
+        <div class="text">
+          <h1 class="home-page">
+            <span id="typing-text-line1"></span><br /><br />
+            <span id="typing-text-line2"></span>
+          </h1>
+        </div>
+      </section>
+      <section id="about">
         <h2 class="about-page">Sobre Mim</h2>
-    </section>
+      </section>
 
-    <section id="projects">
-        <h2 class="project-page">Projetos</h2>
-    </section>
-
-    <section id="experiencia">
+      <section id="experiencia">
         <h2 class="experiencia-page">Experiência</h2>
-    </section>
+      </section>
 
-    <section id="contact">
-        <h2 class="contact-page">Contato</h2>
-    </section>
-    <button id="backToTopBtn">Voltar ao Topo</button>
+      <section id="projects">
+        <h2 class="project-page">Projetos</h2>
+      </section>
 
-    <footer class="footer-page">
+      <button id="backToTopBtn">Voltar ao Topo</button>
+
+      <footer>
         <p>CarameJr &copy; 2023</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+      </footer>
+      <script src="script.js"></script>
+      <script src="script-nav.js"></script>
+    </main>
+  </body>
 </html>
