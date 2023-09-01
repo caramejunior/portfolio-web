@@ -36,7 +36,6 @@ a:hover {
 
 main {
   background-color: #000;
-  /* background-size: cover; */
   height: 90vh;
 }
 
@@ -65,14 +64,13 @@ main {
 /* section */
 section {
   display: flex;
-  flex-direction: column; /* Colocar os elementos em uma coluna */
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* Alinhar o conteúdo no topo */
-  height: 83vh;
-  padding: 2rem;
+  justify-content: flex-start;
+  height: 80vh;
+  padding: 1rem;
   color: yellow;
   font-family: monospace;
-  border: 1px solid black
 }
 
 #home {
@@ -116,7 +114,7 @@ section {
 .curr-button {
   position: absolute;
   top: 63%;
-  left: 25%;
+  left: 22%;
 }
 
 .curr-button button {
@@ -216,12 +214,12 @@ footer {
 
   section {
     display: flex;
-    height: 82vh;
+    height: 80vh;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem;
-    color: #333;
+    padding: 1rem;
+    color: yellow;
     font-family: monospace;
     border: 1px solid black;
   }
@@ -267,8 +265,8 @@ footer {
 @media (max-width: 980px) {
   .curr-button {
     position: absolute;
-    bottom: 20px;
-    top: 77%;
+    bottom: 10px;
+    top: 72%;
     left: 50%;
     transform: translateX(-50%);
   }  
@@ -302,3 +300,42 @@ footer {
 .projects-title {
   color: yellow;
 }
+
+.col {
+  transition: transform 0.1s ease-in-out;
+}
+
+.col:hover {
+  transform: translateY(-5px);
+}
+
+/* CONTATO  */
+
+#contato {
+  position: relative;
+  padding: 40px 0;
+  text-align: center;
+  height: 60vh;
+}
+
+.contact-h2 {
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+.contact-icons {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.contact-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 40px;
+}
+
+.contact-icons a:hover {
+  color: yellow;
+}
+
+
