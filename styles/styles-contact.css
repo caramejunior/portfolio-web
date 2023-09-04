@@ -1,0 +1,51 @@
+#contato {
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+    height: 60vh;
+  }
+  
+  .contact-h2 {
+    color: yellow;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icons {
+    margin-top: 12%;
+    text-align: center;
+  }
+  
+  .contact-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 35px;
+  }
+  
+  .contact-icons a:hover {
+    color: #555;
+    transition: transform 0.1s ease-in-out;
+    /* transform: translateY(-5px); */
+  }
+
+  footer {
+    background-color: #23232e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 25px;
+  }
+
+  @media (max-width: 750px) {
+    #contato {
+      height: auto; /* Ajuste a altura automaticamente */
+      padding: 20px 0; /* Reduza o espaço de preenchimento */
+    }
+  
+    .contact-icons {
+      margin-top: 1%; /* Reduza o espaçamento superior */
+    }
+  
+    .contact-icons a {
+      /* margin: 0 15px;  */
+    }
+  }  
