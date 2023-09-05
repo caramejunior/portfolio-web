@@ -1,0 +1,62 @@
+#contato {
+  position: relative;
+  padding: 10px 0;
+  text-align: center;
+  height: 60vh;
+}
+
+.contact-h2 {
+  color: yellow;
+  margin-bottom: 20px;
+}
+
+.contact-icons {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.contact-icons a {
+  color: #fff;
+  font-size: 90px; /* Tamanho maior para os ícones */
+  margin-right: 100px; /* Espaçamento entre os ícones */
+  vertical-align: middle; /* Alinha os ícones verticalmente */
+  position: relative; /* Permite ajustar a posição dos ícones */
+  top: -100px; /* Move os ícones um pouco para cima */
+  left: 30px; /* Move os ícones um pouco para a direita */
+}
+
+.contact-icons a:hover {
+  color: yellow;
+}
+
+@media (max-width: 700px) {
+  #contato {
+    position: relative;
+    padding: 10px 0;
+    text-align: center;
+    height: 40vh;
+  }
+  .contact-h2 {
+    color: yellow;
+    margin-bottom: 20px;
+  }
+  
+  .contact-icons {
+    margin-top: 15%;
+    text-align: center;
+  }
+  
+  .contact-icons a {
+    color: #fff;
+    font-size: 20px; /* Tamanho maior para os ícones */
+    margin-right: 50px; /* Espaçamento entre os ícones */
+    vertical-align: middle; /* Alinha os ícones verticalmente */
+    position: relative; /* Permite ajustar a posição dos ícones */
+    top: -1px; /* Move os ícones um pouco para cima */
+    left: 25px;
+  }
+  
+  .contact-icons a:hover {
+    color: yellow;
+  }
+}
