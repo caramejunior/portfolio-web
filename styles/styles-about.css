@@ -18,7 +18,7 @@
     text-align: justify;
     width: 85%;
   }
-
+/* ok */
   @media (max-width: 700px) {
     #about {
         background-color: #000;
