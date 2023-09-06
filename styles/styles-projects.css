@@ -1,12 +1,40 @@
 .projects-title {
-    color: yellow;
-    padding: 60px;
+  color: yellow;
+  padding: 60px;
+}
+
+.col {
+  transition: transform 0.5s ease-in-out;
+}
+
+.col:hover {
+  transform: translateY(-30px);
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-title,
+.card-text {
+  font-size: 16px;
+}
+
+@media (max-width: 700px) {
+  #cardContainer .card {
+    width: 40%;
+    margin: 0 auto;
   }
-  
+  .card-title,
+  .card-text {
+    font-size: 10px;
+  }
+
   .col {
-    transition: transform 0.1s ease-in-out;
+    transition: transform 0.5s ease-in-out;
   }
   
   .col:hover {
-    transform: translateY(-5px);
+    transform: translateY(-30px);
   }
+}
